@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B07AEA24E10859846CF2D68 /* Pods_shareViewUIActivityView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA2E27B6A5EB00940D8E0253 /* Pods_shareViewUIActivityView_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,6 +22,10 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A5AA2CE91D87E5D500FA8505 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = A5AA2CE81D87E5D500FA8505 /* Podfile */; };
+		A5AA2CEB1D87E7BE00FA8505 /* commandguide in Resources */ = {isa = PBXBuildFile; fileRef = A5AA2CEA1D87E7BE00FA8505 /* commandguide */; };
+		A5AA2CED1D87E87B00FA8505 /* shareimage.png in Resources */ = {isa = PBXBuildFile; fileRef = A5AA2CEC1D87E87B00FA8505 /* shareimage.png */; };
+		C407CFBCE9767636F1A1FC31 /* Pods_shareViewUIActivityView_Example_shareViewUIActivityView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 082B10F8F3A9A32FE40B3E05 /* Pods_shareViewUIActivityView_Example_shareViewUIActivityView_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		082B10F8F3A9A32FE40B3E05 /* Pods_shareViewUIActivityView_Example_shareViewUIActivityView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shareViewUIActivityView_Example_shareViewUIActivityView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D19922FD2E5EB8931E08364 /* Pods-shareViewUIActivityView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shareViewUIActivityView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-shareViewUIActivityView_Example/Pods-shareViewUIActivityView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5E7CE407F8208C71CCF5F96C /* Pods-shareViewUIActivityView_Example-shareViewUIActivityView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shareViewUIActivityView_Example-shareViewUIActivityView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-shareViewUIActivityView_Example-shareViewUIActivityView_Tests/Pods-shareViewUIActivityView_Example-shareViewUIActivityView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* shareViewUIActivityView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shareViewUIActivityView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -52,11 +60,17 @@
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		6022C81CDADBA648661CBB8C /* Pods-shareViewUIActivityView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shareViewUIActivityView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-shareViewUIActivityView_Example/Pods-shareViewUIActivityView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		7F346A230ADEA320640C4EBF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7F346A230ADEA320640C4EBF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A5AA2CE81D87E5D500FA8505 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5AA2CEA1D87E7BE00FA8505 /* commandguide */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = commandguide; sourceTree = "<group>"; };
+		A5AA2CEC1D87E87B00FA8505 /* shareimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shareimage.png; sourceTree = "<group>"; };
+		AC3C7F70D81301B852D31ABA /* Pods-shareViewUIActivityView_Example-shareViewUIActivityView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shareViewUIActivityView_Example-shareViewUIActivityView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-shareViewUIActivityView_Example-shareViewUIActivityView_Tests/Pods-shareViewUIActivityView_Example-shareViewUIActivityView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA2E27B6A5EB00940D8E0253 /* Pods_shareViewUIActivityView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shareViewUIActivityView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF7DA94EDECFC5EDAA60DA0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		E392A0198357C0C8AAE665D3 /* shareViewUIActivityView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = shareViewUIActivityView.podspec; path = ../shareViewUIActivityView.podspec; sourceTree = "<group>"; };
+		E392A0198357C0C8AAE665D3 /* shareViewUIActivityView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = shareViewUIActivityView.podspec; path = ../shareViewUIActivityView.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +81,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				4B07AEA24E10859846CF2D68 /* Pods_shareViewUIActivityView_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +92,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
+				C407CFBCE9767636F1A1FC31 /* Pods_shareViewUIActivityView_Example_shareViewUIActivityView_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,11 +102,14 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				A5AA2CE81D87E5D500FA8505 /* Podfile */,
+				A5AA2CEA1D87E7BE00FA8505 /* commandguide */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for shareViewUIActivityView */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
+				AB9643B3FFF2E719DE43534C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +129,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
+				BA2E27B6A5EB00940D8E0253 /* Pods_shareViewUIActivityView_Example.framework */,
+				082B10F8F3A9A32FE40B3E05 /* Pods_shareViewUIActivityView_Example_shareViewUIActivityView_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,6 +138,7 @@
 		6003F593195388D20070C39A /* Example for shareViewUIActivityView */ = {
 			isa = PBXGroup;
 			children = (
+				A5AA2CEC1D87E87B00FA8505 /* shareimage.png */,
 				6003F59C195388D20070C39A /* QDAppDelegate.h */,
 				6003F59D195388D20070C39A /* QDAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -169,6 +191,17 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		AB9643B3FFF2E719DE43534C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D19922FD2E5EB8931E08364 /* Pods-shareViewUIActivityView_Example.debug.xcconfig */,
+				6022C81CDADBA648661CBB8C /* Pods-shareViewUIActivityView_Example.release.xcconfig */,
+				AC3C7F70D81301B852D31ABA /* Pods-shareViewUIActivityView_Example-shareViewUIActivityView_Tests.debug.xcconfig */,
+				5E7CE407F8208C71CCF5F96C /* Pods-shareViewUIActivityView_Example-shareViewUIActivityView_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -176,9 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "shareViewUIActivityView_Example" */;
 			buildPhases = (
+				1F2D14AC07847A0F630560BC /* Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
+				BFCC9DA36DC0ED3E1B1919EE /* Embed Pods Frameworks */,
+				B9087E81300AF04C88843A91 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,9 +229,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "shareViewUIActivityView_Tests" */;
 			buildPhases = (
+				4ED5B273C6B9CAD867BF248E /* Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
+				1D81B159D2FD08B759E67C9A /* Embed Pods Frameworks */,
+				C1E9B0321AD5FA77D68314B3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,7 +261,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "PROJECT" */;
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "shareViewUIActivityView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -248,6 +287,9 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				A5AA2CE91D87E5D500FA8505 /* Podfile in Resources */,
+				A5AA2CED1D87E87B00FA8505 /* shareimage.png in Resources */,
+				A5AA2CEB1D87E7BE00FA8505 /* commandguide in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +303,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D81B159D2FD08B759E67C9A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-shareViewUIActivityView_Example-shareViewUIActivityView_Tests/Pods-shareViewUIActivityView_Example-shareViewUIActivityView_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F2D14AC07847A0F630560BC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4ED5B273C6B9CAD867BF248E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B9087E81300AF04C88843A91 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-shareViewUIActivityView_Example/Pods-shareViewUIActivityView_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFCC9DA36DC0ED3E1B1919EE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-shareViewUIActivityView_Example/Pods-shareViewUIActivityView_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1E9B0321AD5FA77D68314B3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-shareViewUIActivityView_Example-shareViewUIActivityView_Tests/Pods-shareViewUIActivityView_Example-shareViewUIActivityView_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6003F586195388D20070C39A /* Sources */ = {
@@ -386,6 +521,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D19922FD2E5EB8931E08364 /* Pods-shareViewUIActivityView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -401,6 +537,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6022C81CDADBA648661CBB8C /* Pods-shareViewUIActivityView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -416,6 +553,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC3C7F70D81301B852D31ABA /* Pods-shareViewUIActivityView_Example-shareViewUIActivityView_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -439,6 +577,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E7CE407F8208C71CCF5F96C /* Pods-shareViewUIActivityView_Example-shareViewUIActivityView_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -459,7 +598,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "PROJECT" */ = {
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "shareViewUIActivityView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,

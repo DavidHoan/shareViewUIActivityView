@@ -1,0 +1,6 @@
+framework module shareViewUIActivityView {
+  umbrella header "shareViewUIActivityView-umbrella.h"
+
+  export *
+  module * { export * }
+}

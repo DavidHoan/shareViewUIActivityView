@@ -1,0 +1,14 @@
+PODS:
+  - shareViewUIActivityView (0.1.0)
+
+DEPENDENCIES:
+  - shareViewUIActivityView (from `../`)
+
+EXTERNAL SOURCES:
+  shareViewUIActivityView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  shareViewUIActivityView: a9607e82d5cad3aa075081d7b2bf2dce6acfa6a2
+
+COCOAPODS: 0.39.0

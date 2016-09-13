@@ -1,0 +1,30 @@
+pod lib create shareViewUIActivityView
+
+edit file: shareViewUIActivityView.podspec
+
+create local update pod install file: 
+
+use_frameworks!
+
+target 'shareViewUIActivityView_Example' do
+pod 'shareViewUIActivityView', :path => '../'
+
+target 'shareViewUIActivityView_Tests' do
+pod 'shareViewUIActivityView', :path => '../'
+end
+end
+
+--> terminal --> pod install
+
+git init
+git add .
+git commit -m "init share"
+git tag 0.1.0
+git remote add origin https://github.com/DavidHoan/shareViaUIActivityViewController.git
+git push -u origin master --tags
+
+
+
+########
+
+pod trunk register mr.donghq@gmail.com "share via uiactivityview"

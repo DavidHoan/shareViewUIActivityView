@@ -1,11 +1,9 @@
 use_frameworks!
 
 target 'shareViewUIActivityView_Example' do
-  pod 'shareViewUIActivityView', :path => '../'
-
-  target 'shareViewUIActivityView_Tests' do
-    inherit! :search_paths
-
-    pod 'FBSnapshotTestCase'
-  end
+    pod 'shareViewUIActivityView', :path => '../'
+    
+    target 'shareViewUIActivityView_Tests' do
+        pod 'shareViewUIActivityView', :path => '../'
+    end
 end
